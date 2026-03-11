@@ -1,4 +1,4 @@
-#print("Lyubov Koroleva")
+# print("Lyubov Koroleva")
 '''print("Я люблю учить Python!")
 print("Привет, друг!, Как дела?")
 print("Что нового в Python?")
@@ -63,17 +63,57 @@ print(int_a + int_b)
 a = input("Введите первое число: ") # или a = int(input("Введите первое число: "))
 b = input("Введите второе число: ")
 print("Результат:", a + b)'''
+from pyexpat.errors import messages
 
-#message = "Привет"
-#name = "Оксана"
-#print(message + name)
-#print(message + " " + name)
-#print(message + ", " + name + "!")
+# message = "Привет"
+# name = "Оксана"
+# print(message + name)
+# print(message + " " + name)
+# print(message + ", " + name + "!")
 
-message = "Привет"
-name = "Оксана"
-result = f"{message}, {name}!"
-print(result)
+# message = "Привет"
+# name = "Оксана"
+# age = 30
+# result = f"{message}, {name}! Тебе {age} лет"
+# result = message + ", " + name + "!" + " Тебе " + str(age) + " лет!" # Привет, Оксана! Тебе 30 лет!
+# print(result)
 
+# name = "Liubov"
+# upper_name = name.upper()
+# lower_name = name.lower()
+# print(upper_name)
+# print(lower_name)
 
+# message = input("Enter a message: ") # или message = input().capitalize()
+# print(message.capitalize())
 
+# day = 28
+# month = 10
+# year = 1978
+# info = "INFO Дата рождения пользователя: "
+# print(info, day, "-", month, "-", year)
+# print(info, end="")
+# print(day, month, year, sep='-')
+# print(info, f"{day} - {month} - {year}")
+
+# text = "я программирую на Python каждый день\n"
+# print(text.capitalize() * 10)
+
+# name = input("Введите имя любимого человека: ")
+# count_repeat = int(input("Введите число повторений: "))
+# print((name.capitalize() + '\n') * count_repeat)
+
+# # 14 * 3 + 2 : 20 - 17 * 16 + (126,9 + 103)
+# a = 14 * 3 + 2 / 20 - 17 * 16 + (126.9 + 103)
+# print(a)
+
+# Сотрудники компании ScriptGalley Slaves могут получить следующую оплату в конце месяца:
+# - оклад минус 20% оклада при эпик фейлах на проде
+# - оклад при штатной работе
+# - оклад + 5% оклада при успешном успехе.
+# Напишите программу, которая получает на вход оклад сотрудника и выводит на печать все возможные варианты оплаты в конце месяца.
+
+salary = int(input("Введите свой оклад: "))
+salary_fail = salary * 0.8
+salary_success = salary + (salary * 0.95)
+print(f"Оклад: {salary}")
