@@ -16,9 +16,8 @@ print("Учить Python... это интересно...")
 print("Я люблю Python")
 print('"Я" "люблю" "Python"')
 print("Python #1 @ school")
-print("Привет!\nПривет, как дела?)'''
-
-'''print("Hello", "123", "100")
+print("Привет!\nПривет, как дела?)
+print("Hello", "123", "100")
 
 name = "Liuba"
 age = 30
@@ -29,15 +28,52 @@ print("Bye", name)
 print("123", 100, None, True)
 print (10 // 3) # 3
 print(10 % 3) # 1
-print(10 ** 3)  # 1000
+print(10 ** 3)  # 1000 возведение в степень
 print("1" + "23") # 123
 
 x = 3
 y = "5"
 int_y = int(y) # "5" -> 5
 str_x = str(x) # 3 -> "3"
-print(x + int_y)'''
+print(x + int_y)
+
+x = 100
+y = 200
+result = x + y
+print(result)
+
+print(1 + 1)
+print(1 - 1)
+print(5 * 2)
+print(5 / 2)
+print(10 // 3)
+print(10 % 3)
 
 message = input()
 print(message)
+
+a = input()
+b = input()
+print(a, b)
+print(a + b)
+int_a = int(a)
+int_b = int(b)
+print(int_a + int_b)
+
+a = input("Введите первое число: ") # или a = int(input("Введите первое число: "))
+b = input("Введите второе число: ")
+print("Результат:", a + b)'''
+
+#message = "Привет"
+#name = "Оксана"
+#print(message + name)
+#print(message + " " + name)
+#print(message + ", " + name + "!")
+
+message = "Привет"
+name = "Оксана"
+result = f"{message}, {name}!"
+print(result)
+
+
 
